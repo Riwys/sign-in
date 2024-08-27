@@ -1,0 +1,141 @@
+body {
+    margin: auto 0;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+.back {
+    height: 32px;
+    width: 32px;
+    color: #474747;
+    /*border:2.4px solid #0B57D0;
+    border-radius: 100%;*/
+    position: fixed;
+    top: 4px;
+    left: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke-width: 20;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.back > img {
+    width: 16px;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    text-align: center;
+    row-gap: 0px;
+    align-content: center;
+/*    grid-template-rows: 2 fr 0.75fr 0.75fr 3fr 0.5fr;*/
+}
+
+.Profile_pic > img {
+    width: 17%;
+}
+
+h1 {
+    color: #1F1F1F;
+    height: fit-content;
+    line-height: auto;
+    margin: 7% 0 2% 0;
+    font-weight: 600;
+    font-family: helvetica;
+    letter-spacing: 0.03em;
+    font-size: 2.2em;
+}
+
+h3 {
+    color: #444746; 
+    height: fit-content;
+    line-height: auto;
+    margin: 0 0 5% 0;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.buttons {
+    display: grid;
+    width: 100%
+    grid-template-columns: minmax(350px, 1fr);
+    gap: 16px;
+}
+
+.primary {
+    border-radius: 32px;
+    border: none;
+    background-color: #121212;
+    color: #FFFFFF;
+    width: 212px;
+    height: 36px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.1s;
+    
+}
+
+.primary:hover {
+    border-radius: 32px;
+    border: none;
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    width: 212px;
+    height: 36px;
+    margin: auto;
+    cursor: pointer;
+    
+}
+
+.secondary {
+    border-radius: 32px;
+    border: 1px solid #121212;
+    background-color: #FFFFFF;
+    color: #121212;
+    width: 212px;
+    height: 36px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+.secondary:hover {
+    border-radius: 32px;
+    border: 1px solid #2E2E2E;
+    background-color: #EDEDED;
+    color: #121212;
+    width: 212px;
+    height: 36px;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+
+.clicked {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer > img {
+    width: 2%;
+}
+
+p {
+    color: #5F6368;
+    font-size: 0.9em;
+    font-weight: normal;
+}
