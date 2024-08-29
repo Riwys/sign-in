@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign in</title>
+  <link rel="stylesheet" type="text/css" href="./style_sign_in.css">
+</head>
+<body>
+
+  <a href="index.html"><div class="back"><img src="Imgs/back.png" alt="back"></div></a>
+
+  <div class="container">
+    <div class="box">
+        <div class="Profile_pic"><img src="Imgs/logo.png" alt="Logo"></div>
+        
+        <h2>Sign in to Chocolates</h2>
+        <h3>Eat some chocolates</h3>
+        
+        <div class="email_area">
+        <label>
+          <input class="email" type="text" name="Email" placeholder=" ">
+          <span>Email or phone</span>
+        </label>
+        <div id = "error_message" hidden>Enter a valid email or phone</div>
+        <p id = "coords-show-mark">Forgot email?</p>
+        </div>
+
+        <div class="guest_mode">
+        <p>Not your computer?Use Sneak mode to sign in privately.</p>
+        <p class="learn_guest">Learn more about using Sneak mode</p>
+        </div>
+
+        <div class="buttons">
+        <p>Create account</p>
+        <button class="primary">Next</button>
+        </div>
+    </div>
+  
+  
+  <div class="footer">
+
+      <select name="language" id="language" value="English (United States)">
+        <option value="English (United States)">English (United States)</option>
+        <option value="English (United Kingdom)">English (United Kingdom)</option>
+        <option value="mercedes">Espanol (Espana)</option>
+        <option value="audi">Espanol (Latino America)</option>
+      </select>
+      <div class="field">
+      <p>Help</p>
+      <p>Privacy</p>
+      <p>Terms</p>
+      </div>
+  </div>
+ </div>
+
+<script type="text/javascript" src="script_sign_in.js"></script>  
+</body>
+</html>
