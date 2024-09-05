@@ -5,17 +5,13 @@ body {
 }
 
 .back {
-/*    content: '\2190';*/
     height: 30px;
     width: 30px;
     color: #474747;
-    /*border:2.4px solid #8AA087;
-    border-radius: 100%;*/
     position: fixed;
     top: 8px;
     left: 20px;
     cursor: pointer;
-/*    background-color: #fff; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +25,10 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     text-align: center;
     row-gap: 0px;
-    align-content: end;
-
+    align-content: center;
 }
 
 .box {
@@ -66,14 +61,13 @@ h3 {
     font-size: 1em;
 }
 
-.email_area {
+.email_box {
     display: grid;
     justify-content: start;
     width: fit-content;
 }
 
 .email {
-/*    padding: 2.4vh 1vw;*/
     border: 1px solid #DADCE0;
     border-radius: 3px;
     width: 330px;
@@ -82,7 +76,7 @@ h3 {
     font-size: 1.1em;
 }
 
-.email_area > p {
+.email_box > p {
     width: fit-content;
     color: #121212;
     font-weight: bold;
@@ -90,20 +84,20 @@ h3 {
 
 }
 
-.guest_mode {
+.sneak_mode {
     display: grid;
     justify-content: start;
     gap: 4px;
     margin: 0 0 12% 0;
 }
 
-.guest_mode > p {
+.sneak_mode > p {
     width: fit-content;
     padding: 0;
     margin: 0;
 }
 
-.learn_guest {
+.sneak_mode_bold {
     color: #121212;
     font-weight: bold;
 }
@@ -112,10 +106,6 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-/*    width: 330px;*/
-   
-/*    grid-template-columns: minmax(350px, 1fr);*/
     gap: 16px;
 }
 
@@ -126,8 +116,7 @@ h3 {
     color: #FFFFFF;
     width: 100px;
     height: 44px;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 .buttons > p {
@@ -142,7 +131,6 @@ h3 {
     align-items: center;
     gap: 20px;
     color: #ABADAE;
-
     width: 456px;
     padding: 2% 0;
     margin: 0;
